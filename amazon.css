@@ -2,6 +2,8 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     border: border-box;
+    /* background-color: #e2e7e6; */
+    /* z-index: -10; */
     /* color:white; */
 }
 
@@ -18,17 +20,16 @@
 .navlogo {
     height: 40px;
     width: 113px;
-    /* margin-top:15px; */
+    display: flex;
+    align-items: center;
+    margin-left: -10px;
 }
 
 .logo {
     background-image: url(amazon.png);
     background-size: cover;
-    height: 80px;
+    height: 75px;
     width: 152px;
-    position: relative;
-    top: -20px;
-    left: -17px;
 }
 
 .border {
@@ -203,7 +204,7 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 125px;
+    margin-bottom: 145px;
 }
 
 .hero-msg a {
@@ -215,10 +216,10 @@ span {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: #e2e7e6;
     position: relative;
-    top: -100px;
+    top: -125px;
     z-index: 2;
+    background: linear-gradient(to bottom, rgba(226, 231, 230, -1) 0.05%, #e2e7e6 15%, #e2e7e6 100%);
 }
 
 .box {
@@ -298,10 +299,12 @@ ul a {
     align-items: center;
 }
 
-.logo {
+.footlogo {
     background-image: url(amazon.png);
     background-size: cover;
-    height: 50px;
+    display: flex;
+    align-items: center;
+    height: 65px;
     width: 135px;
 }
 
